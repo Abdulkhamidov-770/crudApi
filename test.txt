@@ -1,0 +1,21 @@
+ https://documenter.getpostman.com/view/18856767/2s8YsxtAXz
+
+1. Oʻzimiz uchun yuqoridagi "Documentation" ga ko'ra "account" yaratish 
+(postmanda yaratib  olib loginda foydalansa ham boʻladi). 
+
+2. "account" ning login va paroli orqali "avtorizatsiya" qilish. ( Private Route )
+
+3. Berilgan Documentation ga qarab "tasklar" uchun CRUD ni ihtiyoriy UI da ishlab chiqish.
+
+Talablar: 
+"avtorizatsiya" ⚙️ Reduxda / 
+CRUD amallari ⚙️ Redux toolkitda bajarilsin.
+
+GET , POST , PUT, DELET
+PUT : body: {
+number:int,
+title:"string",
+description:"string"
+status:int
+
+}
